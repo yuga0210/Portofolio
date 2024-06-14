@@ -1,0 +1,382 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+.home {
+  height: 100vh;
+  width: 100%;
+  background-color: #101010;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #191919;
+  padding: 10px 8%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid red;
+}
+.logo {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span {
+  color: red;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+  color: red;
+  transition: 0.5s;
+}
+.btn {
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 30px;
+  transition: transform 0.5s;
+}
+.btn :hover {
+  transform: scale(1, 2);
+  border: 2px solid red;
+  background-color: transparent;
+}
+.content {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translateY(-50%);
+  color: white;
+}
+h4 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+h1 {
+  color: white;
+  font-size: 65px;
+  margin: 20px 0 20px;
+}
+h3 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.content a {
+  font-size: 20px;
+  background: red;
+  color: white;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 2px solid white;
+  transition: 0.5s;
+}
+.content a:hover {
+  background: transparent;
+  border: 2px solid red;
+}
+.about {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #101010;
+}
+.about-me {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-me img {
+  height: auto;
+  width: 430px;
+  border-radius: 10px;
+}
+.about-text {
+  width: 550px;
+}
+.about-text h2 {
+  color: white;
+  font-size: 65px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  border-bottom: 1px solid red;
+}
+.about-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 23px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.about-text p {
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 15px;
+  margin-bottom: 45px;
+  text-align: justify;
+}
+.button {
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.button :hover {
+  background-color: transparent;
+  border: 2px solid red;
+  cursor: pointer;
+}
+.portofolio {
+  background: #101010;
+  width: 100%;
+  padding: 100px 0;
+}
+.title h2 {
+  color: white;
+  font-size: 75px;
+  width: 100%;
+  margin-bottom: 30px auto;
+  text-align: center;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card {
+  height: 365px;
+  width: 200px;
+  padding: 20px 35px;
+  background: #141414;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid red;
+}
+.card i {
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0;
+  color: red;
+}
+.card h5 {
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.pra p {
+  color: #fcfcfc;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+.pra p a {
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+}
+.pra p a:hover {
+  background-color: transparent;
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+.kontak .info-wrap {
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.kontak .info {
+  background: #fff;
+}
+
+.section-kontak {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-kontak h2 {
+  margin: 15px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #fa9898;
+}
+
+.section-kontak h2 span {
+  color: #5f5950;
+}
+
+.kontak .info i {
+  font-size: 20px;
+  color: #fff6e8;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #fa9898;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.kontak .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #433f39;
+  font-family: "Poppins", sans-serif;
+}
+
+.kontak .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #5f5950;
+}
+
+.kontak .info:hover i {
+  background: #5f5950;
+  color: #fff;
+}
+
+.kontak .php-email-form {
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  padding: 30px;
+  background: #fff;
+}
+
+.kontak .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.kontak .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.kontak .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.kontak .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.kontak .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.kontak .php-email-form input,
+.kontak .php-email-form textarea {
+  border-radius: 5;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.kontak .php-email-form input {
+  height: 44px;
+}
+
+.kontak .php-email-form textarea {
+  padding: 10px 12px;
+}
+
+.kontak .php-email-form button[type="submit"] {
+  background: #fa9898;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.kontak .php-email-form button[type="submit"]:hover {
+  background: #4c4c50;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.map {
+  height: 100%;
+  margin-top: 70px;
+}
